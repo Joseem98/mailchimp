@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Arvo;
+    src: url(./styles/Arvo/Arvo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./styles/Poppins/Poppins-Regular.ttf);
+}
+
+
+body{
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+
+header {
+    display: block;
+    float: left;
+    margin-right: 50px;
+}
+
+h1 {
+    font-family: Arvo;
+    font-size: 40px;
+    text-align: center;
+}
+
+.subtexto {
+    font-family: Poppins;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: justify;
+
+}
+
+.lista {
+    display: block;
+    height: 50px;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.username {
+    margin-bottom: 20px;
+}
+
+.password {
+    margin-bottom: 20px;
+}
+
+a {
+    color: cadetblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bloque1{
+    display: block;
+}
+
+.bloque2{
+    display: block;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
