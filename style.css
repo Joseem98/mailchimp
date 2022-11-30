@@ -14,13 +14,6 @@ body{
     font-size: 14px;
 }
 
-
-header {
-    display: block;
-    float: left;
-    margin-right: 50px;
-}
-
 h1 {
     font-family: Arvo;
     font-size: 40px;
@@ -30,26 +23,37 @@ h1 {
 .subtexto {
     font-family: Poppins;
     font-size: 14px;
-    margin-bottom: 30px;
-    text-align: justify;
+    margin-bottom: 20px;
+    text-align:left
 
 }
 
-.lista {
+.cabecera {
     display: block;
-    height: 50px;
+}
+
+.formulario {
+    display: block;
+}
+
+.lista {
+    width: 300px;
+    height: 100px;
 }
 
 .email {
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .username {
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .password {
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 a {
@@ -59,14 +63,68 @@ a {
 }
 
 .bloque1{
-    display: block;
+    float: left;
+    height: 1000px;
 }
 
 .bloque2{
     display: block;
+    width: 500px;
+    float: left;
 }
 
 img {
     width: 250px;
     height: 250px;
+    margin-right: 50px;
+}
+
+input {
+    width: 200px;
+}
+
+.cajaem {
+    width: 500px;
+    height: 35px;
+    font-family: Poppins;
+}
+
+.cajaus {
+    width: 500px;
+    height: 35px;
+    font-family: Poppins;
+}
+
+.cajapas {
+    width: 500px;
+    height: 35px;
+    font-family: Poppins;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+li::before {
+   color: cadetblue;
+   content: "\2022";
+   display: inline-block;
+            width: 2em;
+            margin-left: -1em;
+}
+
+
+.check {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.offers {
+    display: inline-block;
+    width: 350px;
+}
+
+.checkbox {
+    width: 30px;
 }

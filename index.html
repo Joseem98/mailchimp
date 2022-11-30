@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <div class="bloque1">
-        <header>
-            <img src="./styles/kisspng-mailchimp-email-marketing-e-commerce-newsletter-illuminated-manuscript-5b17cd1a2652a7.524959951528286490157.png" alt="Mailchimp">
-        </header>
-    </div>
+    
+            <div class="bloque1">
+                <img src="./styles/kisspng-mailchimp-email-marketing-e-commerce-newsletter-illuminated-manuscript-5b17cd1a2652a7.524959951528286490157.png" alt="Mailchimp">
+            </div>
+    
 
     <div class="bloque2">
         <div class="cabecera">
@@ -23,26 +23,28 @@
         </div>
 
         <form class="formulario">
-            <div class="email">Email<br><input type="email" name="email" required></br></div>
-            <div class="username">Username<br><input type="text" name="username" required pattern="[A-Za-z0-9]"></br></div>
-            <div class="password">Password<br><input type="password" name="passwrod" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"></br></div>
+            <div class="email">Email<br><input type="email" name="email" required class="cajaem"/></br></div>
+            <div class="username">Username<br><input type="text" name="username" required pattern="[A-Za-z0-9]" class="cajaus"/></br></div>
+            <div class="password">Password<br><input type="password" name="passwrod" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" class="cajapas"/></br></div>
         </form>
         
-        <div class="lista">
-            <ul>
+            <ul class="lista">
                 <li>One lowercase character</li>
                 <li>One uppercase character</li>
                 <li>One number</li>
                 <li>One special character</li>
                 <li>8 character minimun</li>
             </ul>
-        </div>
 
         <div class="signup">
-            <button type="submit">Sign up</button>
-            <div><input type="checkbox"><p>I don't want to receive emails about new Mailchimp products, best practices, or special offers.</p></div>
-
+            <button type="submit" class="check">Sign up</button>
+            <div class="offers"><p><input type="checkbox" class="checkbox"/>I don't want to receive emails about new Mailchimp products, best practices, or special offers.</p></div>
         </div>
+
+        <div class="terms">
+            <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimps <a href="https://www.google.com">Terms of Use</a> and <a href="http://www.google.es">Privacy Policy.</a></p>
+        </div>
+
     </div>
 </body>
 </html>
